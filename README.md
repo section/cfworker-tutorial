@@ -2,7 +2,7 @@
 
 This repo holds the sample code for usage with the tutorials hosted on Section.io's documentations.
 
-Refer to [Tutorials/CloudFlare Workers](https://www.section.io/docs/tutorials/cf-worker) for detailed instructions on deploying.
+Refer to [Tutorials/CloudFlare Workers](https://www.section.io/docs/tutorials/frameworks/cf-worker) for detailed instructions on deploying.
 
 ```bash
 # Build and push react image
@@ -18,6 +18,6 @@ echo $GITHUB_TOKEN | docker login ghcr.io -u $GITHUB_USER --password-stdin
 docker push ghcr.io/$USER/$IMAGENAME:$TAG
 
 # Deploy k8s yamls
-# - Change image name in k8s/webapp-deployment.yaml if using your own image instead
+# - Change image name in k8s/workers-deployment.yaml if using your own image instead
 kubectl apply -f ./k8s/
 ```
