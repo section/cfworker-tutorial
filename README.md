@@ -2,7 +2,7 @@
 
 This repo holds the sample code for usage with the tutorials hosted on Section.io's documentations.
 
-Refer to [Tutorials/CloudFlare Workers](https://www.section.io/docs/tutorials/frameworks/cf-worker) for detailed instructions on deploying.
+Refer to [Tutorials/CloudFlare Workers](https://www.section.io/docs/tutorials/cf-worker) for detailed instructions on deploying.
 
 ```bash
 # Build and push react image
